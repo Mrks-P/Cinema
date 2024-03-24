@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equip-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Vitória Regia</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Box Icons -->
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header>  
-      <a href="#" class="logo">
-        <i class='bx bxs-movie'></i> Movies
-      </a>
-      <div class="bx bx-menu" id="menu-icon"></div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equip-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!-- Menu -->
-      <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-          <li><a href="#movies">Movies</a></li>
-            <li><a href="#coming">Coming</a></li>
-              <li><a href="#newsletter">Newsletter</a></li>
-      </ul>
-      <a href="#" class="btn">Sign In</a>
-    </header>
-  </body>
+  <title>Vitória Regia</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <a href="#" class="logo">
+      <i class='bx bxs-movie'></i> Movies
+    </a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <!-- Menu -->
+    <ul class="navbar">
+      <li><a href="#home" class="home-active">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#coming">Coming</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+    <a href="#" class="btn">Sign In</a>
+  </header>
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Link to Custom JS-->
+  <script src="main.js"></script>
+</body>
+
 </html>
