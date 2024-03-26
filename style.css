@@ -64,15 +64,15 @@ header{
     color: var(--bg-color)
 }
 
-.navbar a::after{
-    content: '';
-    width: 0;
-    height: 2px;
-    background: var(--main-color);
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    transition: 0.4s all linear;
+.navbar a:after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: var(--main-color);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.4s all linear;
 }
 
 .navbar a:hover::after,
